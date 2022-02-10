@@ -8,6 +8,7 @@ import GenerateLeadsSection from './components/GenerateLeadsSection'
 import AnalyzeTraficSection from './components/AnalyzeTraficSection'
 import PromoteNgosSection from './components/PromoteNgosSection'
 import TipsSection from './components/TipsSection'
+import AtomSection from './components/AtomSection'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 			<AnalyzeTraficSection /> {/* Section 7 */}
 			<PromoteNgosSection /> {/* Section 8 */}
 			<TipsSection /> {/* Section 9 */}
+			<AtomSection /> {/* Section 10 */}
 		</div>
 	)
 }
