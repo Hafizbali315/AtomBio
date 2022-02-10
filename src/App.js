@@ -7,6 +7,7 @@ import ShareYoutubeSection from './components/ShareYoutubeSection'
 import GenerateLeadsSection from './components/GenerateLeadsSection'
 import AnalyzeTraficSection from './components/AnalyzeTraficSection'
 import PromoteNgosSection from './components/PromoteNgosSection'
+import TipsSection from './components/TipsSection'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<GenerateLeadsSection /> {/* Section 6 */}
 			<AnalyzeTraficSection /> {/* Section 7 */}
 			<PromoteNgosSection /> {/* Section 8 */}
+			<TipsSection /> {/* Section 9 */}
 		</div>
 	)
 }
