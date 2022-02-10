@@ -1,0 +1,140 @@
+.increase_visits_section {
+	display: flex;
+	gap: 140px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 50px 0;
+
+	.left {
+		max-width: 410px;
+	}
+
+	.right {
+		position: relative;
+
+		.background_container {
+			width: 400px;
+			height: 400px;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.links {
+			z-index: 99;
+			width: 100%;
+			position: absolute;
+			top: 50px;
+			display: flex;
+			justify-content: space-between;
+
+			.left {
+				.last_single {
+					button {
+						background: #1ed760;
+					}
+				}
+
+				.amazon {
+					margin-top: 30px;
+					margin-left: 30px;
+					button {
+						background: #ff9a00;
+					}
+				}
+
+				.twitch {
+					margin-top: 30px;
+					button {
+						background: #c9a8fb;
+					}
+				}
+			}
+
+			.right {
+				.recipes {
+					margin-top: 20px;
+
+					button {
+						background: #f2c94c;
+					}
+
+					.img_container {
+						background: transparent;
+					}
+				}
+
+				.tiktok {
+					margin-left: 20px;
+					margin-top: 30px;
+
+					button {
+						background: #f13d6b;
+					}
+				}
+			}
+
+			button {
+				cursor: pointer;
+				position: relative;
+				height: 48px;
+				padding: 13px 40px;
+				border-radius: 40px;
+				border: none;
+
+				.img_container {
+					background: #fff;
+					position: absolute;
+					top: -1px;
+					left: -2px;
+					border-radius: 40px;
+					width: 50px;
+					height: 50px;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				span {
+					margin-left: 20px;
+					color: #ffffff;
+					font-weight: 500;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+@include tablet-screen {
+	.increase_visits_section {
+		flex-direction: column;
+		gap: 10px;
+		padding: 50px 20px;
+
+		.left {
+			text-align: center;
+			max-width: 410px;
+		}
+
+		.right {
+			.background_container {
+				img {
+					object-fit: cover;
+				}
+			}
+
+			.links {
+				flex-direction: column;
+				align-items: center;
+				gap: 10px;
+			}
+		}
+	}
+}
