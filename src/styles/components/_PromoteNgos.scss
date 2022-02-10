@@ -60,3 +60,11 @@
 		}
 	}
 }
+
+@include tablet-screen {
+	.promote_ngos {
+		flex-direction: column;
+		gap: 100px;
+		padding: 100px 20px;
+	}
+}
