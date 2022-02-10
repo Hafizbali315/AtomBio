@@ -1,0 +1,37 @@
+.analyze_trafic_section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 20px;
+	position: relative;
+	gap: 100px;
+
+	.left {
+		max-width: 480px;
+	}
+
+	.right {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 9;
+
+		img {
+			width: 280px;
+			height: 280px;
+			object-fit: contain;
+		}
+	}
+}
+
+@include tablet-screen {
+	.analyze_trafic_section {
+		flex-direction: column;
+		padding: 30px 20px;
+		gap: 10px;
+
+		.left {
+			text-align: center;
+		}
+	}
+}

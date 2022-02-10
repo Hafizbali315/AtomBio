@@ -5,6 +5,7 @@ import IncreaseVisitsSection from './components/IncreaseVisitsSection'
 import PromoteProductsSection from './components/PromoteProductsSection'
 import ShareYoutubeSection from './components/ShareYoutubeSection'
 import GenerateLeadsSection from './components/GenerateLeadsSection'
+import AnalyzeTraficSection from './components/AnalyzeTraficSection'
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<PromoteProductsSection /> {/* Section 4 */}
 			<ShareYoutubeSection /> {/* Section 5 */}
 			<GenerateLeadsSection /> {/* Section 6 */}
+			<AnalyzeTraficSection /> {/* Section 7 */}
 		</div>
 	)
 }
