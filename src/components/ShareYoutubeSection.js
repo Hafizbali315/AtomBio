@@ -5,7 +5,9 @@ const ShareYoutubeSection = () => {
 	return (
 		<div className="share_youtube_section">
 			<div className="left">
-				<h2>Comparte videos de YouTube como una estrella del rock.</h2>
+				<h2>
+					Comparte videos de YouTube como una estrella del rock<span style={{ color: '#F056E3' }}>.</span>
+				</h2>
 				<p>Copia el enlace del video de YouTube que quieras compartir y se podrá reproducir directamente desde tu página.</p>
 			</div>
 			<div className="right">

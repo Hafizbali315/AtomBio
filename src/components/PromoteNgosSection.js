@@ -1,11 +1,14 @@
 import Image8Left from '../assets/Image8Left.png'
+import DesktopSectionBackground from '../assets/DesktopSectionBackground.png'
 import Image8 from '../assets/Image8.png'
 
 const PromoteNgosSection = () => {
 	return (
 		<div className="promote_ngos">
 			<div className="left">
-				<h2>Promueve ONG’s hasta el infinito y más allá.</h2>
+				<h2>
+					Promueve ONG’s hasta el infinito y más allá<span style={{ color: '#F056E3' }}>.</span>
+				</h2>
 
 				<p>Usa tu página para ayudar a Amnistía Internacional y próximamente a muchas más ONG’s.</p>
 				<p>Activa el enlace al crear tu página.</p>
@@ -30,6 +33,10 @@ const PromoteNgosSection = () => {
 						<br /> Es gratis.
 					</p>
 				</div>
+			</div>
+
+			<div className="background_img">
+				<img src={DesktopSectionBackground} alt="DesktopSectionBackground" />
 			</div>
 		</div>
 	)

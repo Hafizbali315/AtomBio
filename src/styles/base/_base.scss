@@ -41,6 +41,10 @@ p {
 	}
 }
 
+button {
+	cursor: pointer;
+}
+
 @include tablet-screen {
 	h2 {
 		font-weight: 600;

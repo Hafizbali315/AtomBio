@@ -5,6 +5,7 @@
 	gap: 120px;
 	text-align: center;
 	padding: 100px 20px;
+	position: relative;
 
 	.left {
 		max-width: 340px;
@@ -66,5 +67,15 @@
 		flex-direction: column;
 		gap: 100px;
 		padding: 100px 20px;
+
+		.background_img {
+			height: 100%;
+			right: 0;
+			top: 50%;
+
+			img {
+				height: 50%;
+			}
+		}
 	}
 }

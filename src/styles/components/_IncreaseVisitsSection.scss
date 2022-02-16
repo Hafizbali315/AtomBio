@@ -15,9 +15,16 @@
 
 		.background_container {
 			width: 400px;
+			max-width: 100%;
 			height: 400px;
 
-			img {
+			.desktop {
+				width: 100%;
+				height: 100%;
+			}
+
+			.mobile {
+				display: none;
 				width: 100%;
 				height: 100%;
 			}
@@ -78,7 +85,7 @@
 			}
 
 			button {
-				cursor: pointer;
+				cursor: default;
 				position: relative;
 				height: 48px;
 				padding: 13px 40px;
@@ -125,9 +132,18 @@
 
 		.right {
 			.background_container {
-				img {
+				max-width: 100vw;
+				overflow: hidden;
+				height: 625px;
+				.desktop {
+					display: none;
 					object-fit: cover;
 					overflow: hidden;
+				}
+
+				.mobile {
+					display: block;
+					object-fit: cover;
 				}
 			}
 

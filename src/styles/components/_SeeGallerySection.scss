@@ -5,6 +5,16 @@
 	gap: 40px;
 	padding: 20px 0;
 
+	.left {
+		.img_container {
+			max-width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
 	.right {
 		.points_row {
 			margin-top: 25px;
@@ -90,9 +100,20 @@
 					}
 
 					button {
+						background: #b013a3;
+						border: none;
 						padding: 10px 40px;
 						margin-top: 10px;
 					}
+				}
+			}
+		}
+
+		.left {
+			.img_container {
+				margin-top: -80px;
+				img {
+					width: 100%;
 				}
 			}
 		}

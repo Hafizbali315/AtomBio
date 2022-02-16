@@ -13,7 +13,9 @@ const AtomSection = () => {
 				<div className="content">
 					<h2>
 						“I,
-						<br /> a universe of atoms an atom in the Universe.”
+						<br /> a universe of atoms
+						<br /> an atom in the
+						<br /> Universe<span>.</span>”
 					</h2>
 					<h6>R. Feynman</h6>
 

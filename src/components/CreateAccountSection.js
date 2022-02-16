@@ -21,6 +21,9 @@ const CreateAccountSection = () => {
 				<div className="right_img">
 					<img src={SocialMobileImg} alt="SocialMobileImg" />
 				</div>
+				<p>
+					¿Eres influencer y te conocen más allá de Orión? <span>Entra aquí</span>
+				</p>
 			</div>
 
 			<div className="background_img">

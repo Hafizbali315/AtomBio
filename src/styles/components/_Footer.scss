@@ -39,6 +39,7 @@
 		}
 
 		p {
+			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 13px;
 		}
@@ -48,9 +49,10 @@
 @include tablet-screen {
 	.footer {
 		flex-direction: column;
-		padding: 20px;
+		padding: 0 20px 20px 20px;
 		align-items: center;
 		text-align: center;
+		margin-top: -20px;
 
 		.left,
 		.middle {

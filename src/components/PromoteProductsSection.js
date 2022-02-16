@@ -10,7 +10,9 @@ const PromoteProductsSection = () => {
 				</div>
 			</div>
 			<div className="right">
-				<h2>Promociona tus productos y servicios en toda la galaxia.</h2>
+				<h2>
+					Promociona tus productos y servicios en toda la galaxia<span style={{ color: '#02B09E' }}>.</span>
+				</h2>
 
 				<ul>
 					<li>

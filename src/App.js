@@ -15,16 +15,16 @@ function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<CreateAccountSection /> {/* Section 1 */}
-			<SeeGallerySection /> {/* Section 2 */}
-			<IncreaseVisitsSection /> {/* Section 3 */}
-			<PromoteProductsSection /> {/* Section 4 */}
-			<ShareYoutubeSection /> {/* Section 5 */}
-			<GenerateLeadsSection /> {/* Section 6 */}
-			<AnalyzeTraficSection /> {/* Section 7 */}
-			<PromoteNgosSection /> {/* Section 8 */}
-			<TipsSection /> {/* Section 9 */}
-			<AtomSection /> {/* Section 10 */}
+			<CreateAccountSection />
+			<SeeGallerySection />
+			<IncreaseVisitsSection />
+			<PromoteProductsSection />
+			<ShareYoutubeSection />
+			<GenerateLeadsSection />
+			<AnalyzeTraficSection />
+			<PromoteNgosSection />
+			<TipsSection />
+			<AtomSection />
 			<Footer />
 		</div>
 	)

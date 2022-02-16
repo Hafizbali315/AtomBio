@@ -1,5 +1,6 @@
 import DesktopSectionBackground from '../assets/DesktopSectionBackground.png'
 import Image3 from '../assets/Image3.png'
+import Image3Mobile from '../assets/Image3Mobile.png'
 import SpotifyImg from '../assets/SpotifyImg.png'
 import AmazonImg from '../assets/AmazonImg.png'
 import Twitch from '../assets/Twitch.png'
@@ -10,7 +11,9 @@ const IncreaseVisitsSection = () => {
 	return (
 		<div className="increase_visits_section">
 			<div className="left">
-				<h2>Aumenta tus visitas y brilla más que nadie.</h2>
+				<h2>
+					Aumenta tus visitas y brilla más que nadie<span style={{ color: '#F056E3' }}>.</span>
+				</h2>
 				<p>
 					Guía a tus seguidores hacia tu información de contacto y tus redes.
 					<br /> Cuéntales lo que quieras sobre ti y expande tu universo.
@@ -18,7 +21,8 @@ const IncreaseVisitsSection = () => {
 			</div>
 			<div className="right">
 				<div className="background_container">
-					<img src={Image3} alt="img3" />
+					<img className="desktop" src={Image3} alt="img3" />
+					<img className="mobile" src={Image3Mobile} alt="img3" />
 				</div>
 
 				<div className="links">

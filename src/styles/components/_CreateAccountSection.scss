@@ -64,6 +64,7 @@
 
 	.right {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		z-index: 9;
@@ -72,6 +73,10 @@
 			max-height: 430px;
 			width: 400px;
 			object-fit: cover;
+		}
+
+		p {
+			display: none;
 		}
 	}
 }
@@ -91,6 +96,7 @@
 			}
 
 			p {
+				display: none;
 				margin-top: 12px;
 				font-size: 14px;
 				padding: 0 30px;
@@ -116,6 +122,23 @@
 				max-height: 430px;
 				width: 100%;
 				object-fit: cover;
+			}
+
+			p {
+				display: block;
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 140%;
+				padding: 0 20px;
+				text-align: center;
+				margin-top: -80px;
+
+				span {
+					letter-spacing: 0.04em;
+					text-decoration-line: underline;
+					text-transform: uppercase;
+					color: #e5c861;
+				}
 			}
 		}
 	}

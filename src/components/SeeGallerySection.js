@@ -10,7 +10,9 @@ const SeeGallerySection = () => {
 				</div>
 			</div>
 			<div className="right">
-				<h2>Cada estrella tiene su estilo.</h2>
+				<h2>
+					Cada estrella tiene su estilo<span style={{ color: '#02B09E' }}>.</span>
+				</h2>
 				<p>
 					Elige un tema predefinido o personaliza tu
 					<br />
